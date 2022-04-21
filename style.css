@@ -1094,7 +1094,39 @@ body {
     .bounce_rectangle_1{
         display: none;
     }
+    .map_wrapper{
+        margin: 10px;
+    }
+    .phone_reviews {
+        display: none;
+    }
+    .bg33 {
+        display: none;
+    }
+    .img_bg_delivery {
+        display: none;
+    }
+    .img_delivery_md {
+        display: none;
+    }
+    .dama-logo{
 
+        position: absolute;
+        top: -55px;
+        right: 0;
+    }
+    .delivery_text_menu {
+        top: 59px;
+        left: 0;
+        margin: 10px;
+    }
+    .delivery_title {
+        font-size: 13px;
+    }
+    .delivery_desk {
+        font-size: 13px;
+        width: 100%;
+    }
     .circle_static{
         display: none;
     }
@@ -1110,6 +1142,12 @@ body {
     .header-info{
         padding: 0;
         margin: 0;
+    }
+    .delivery_wrapper {
+        width: 100%;
+        height: 100%;
+        position: relative;
+        margin-top: 65px;
     }
     .header-flex {
         display: flex;
