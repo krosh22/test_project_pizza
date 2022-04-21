@@ -1201,7 +1201,7 @@ body {
         height: auto;
     }
     .menu_phone {
-        top: 185px;
+        top: 336px;
         left: 10px;
         font-size: 13px;
     }
@@ -1217,7 +1217,7 @@ body {
         width: 58%;
     }
     .map_title {
-        width: 50%;
+        width: 44%;
         font-size: 13px;
     }
     .map {
@@ -1233,12 +1233,53 @@ body {
 
     }
     .menu_phone_desk {
-        top: 233px;
+        top: 380px;
         left: 10px;
+    }
+    .cook_title {
+        font-size: 13px;
+    }
+    .acor-container label{
+        font-size: 13px;
+        width: 65%;
+    }
+    .acor-desk{
+        font-size: 13px;
+    }
+    .acor-container .acor-body{
+
+    }
+    .reviews_text {
+        top: 8px;
+        left: 0;
+        margin-right: 50px;
+    }
+    .reviews_title {
+        font-size: 13px;
+    }
+    .reviews_desk-title {
+        font-size: 13px;
+        width: 63%;
+    }
+    .forms {
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        top: 642px;
+        width: 100%;
+    }
+
+    .reviews_desk {
+        width: 101%;
+        font-size: 13px;
+    }
+    .reviews {
+        top: 265px;
+        right: 25px;
     }
 
     .footer {
-        margin-top: 570px;
+        margin-top: 500px;
     }
     .footer_logo{
         display: none;
@@ -1247,7 +1288,7 @@ body {
         display: none;
     }
     .info_wrapper {
-        top: 365px;
+        top: 495px;
         left: 10px;
     }
 .header-flex {
