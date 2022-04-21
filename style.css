@@ -5,8 +5,20 @@ body {
     display: block;
     margin: 0 auto;
 }
+.footer_md {
+    display: none;
+}
+.img_md{
+    display: none;
+}
 .bg33{
     display: none;
+}
+.footer-nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 .header-info {
     margin: 0;
@@ -137,6 +149,9 @@ body {
 .img_bg {
     width: 100%;
 }
+.header-flex{
+    display: none;
+}
 .img_phone_menu {
     position: absolute;
     right: 0;
@@ -255,6 +270,9 @@ body {
     top: 175px;
     left: 1100px;
 }
+.img_phone-new {
+    display: none;
+}
 .cook_title {
     font-family: 'Ubuntu';
     font-style: normal;
@@ -303,6 +321,9 @@ body {
     line-height: 150%;
     color: #FFFFFF;
     width: 407px;
+}
+.bg_image_first_md{
+    display: none;
 }
 .reviews_desk {
 
@@ -1064,9 +1085,162 @@ body {
 
 
 @media screen and (max-width: 320px) {
+    .bounce_rectangle_3{
+        display: none;
+    }
+    .bounce_rectangle_2{
+        display: none;
+    }
+    .bounce_rectangle_1{
+        display: none;
+    }
 
+    .circle_static{
+        display: none;
+    }
+    .header-button{
+        display: none;
+    }
+    .header-nav{
+        display: none;
+    }
+    .header_flex_menu {
+        display: none;
+    }
+    .header-info{
+        padding: 0;
+        margin: 0;
+    }
+    .header-flex {
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+    }
+    .headerLogo{
+        width: 25px;
+    }
+    .items-icon {
+        width: 18px;
+    }
+    .messeges_wrapper{
+        right: 5px;
+    }
+    .bg_image_first_md{
+        width: 100%;
+        display: flex;
+        z-index: 0;
+    }
+    .bg_image_first{
+        display: none;
+    }
+    .phone_image_md{
+        width: 73%;
+    }
+    .form_wrapper {
+        max-width: 100%;
+        box-shadow: none;
+    }
+    .phone_second{
+        display: none;
+    }
+    .menu_info {
+        padding: 0;
+        margin-bottom: 220px;
+    }
+    .menu_wrapper {
+        width: 100%;
+        padding-left: 0;
+        box-sizing: border-box;
+        padding-right: 0;
+        margin-top: 20px;
+    }
+    .img_phone-new {
+        position: absolute;
+        display: block;
+        right: 18%;
+        width: 63%;
+        bottom: 221px;
+        height: auto;
+    }
+    .menu_phone {
+        top: 185px;
+        left: 10px;
+        font-size: 13px;
+    }
+    .phone_info {
+        font-size: 13px;
+        margin-right: 30px;
+    }
+    .color-title {
+        font-size: 13px;
+    }
+    .menu_title {
+        font-size: 13px;
+        width: 58%;
+    }
+    .map_title {
+        width: 50%;
+        font-size: 13px;
+    }
+    .map {
+        width: 90%;
+    }
+    .map_desk {
+        width: 100%;
+    }
+
+    .menu_phone_desk {
+        width: 100%;
+        font-size: 13px;
+
+    }
+    .menu_phone_desk {
+        top: 233px;
+        left: 10px;
+    }
+
+    .footer {
+        margin-top: 570px;
+    }
+    .footer_logo{
+        display: none;
+    }
+    .footer-nav{
+        display: none;
+    }
+    .info_wrapper {
+        top: 365px;
+        left: 10px;
+    }
+.header-flex {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
 }
+    .menu_img {
+        width: 10%;
+    }
+    .buttons {
+        width: 42%;
+    }
+    .phone_second {
+        display: none;
+    }
+    .img_phone{
+        display: none;
+    }
 
+.bg_first_section_md{
+    display: none;
+}
+    .menu_info{
+        width: 100%;
+    }
+    .menu-desk{
+        font-size: 13px;
+    }
+}
 @media screen and (max-width: 767px) {
     .circle_static{
         display: none;
