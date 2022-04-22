@@ -1241,7 +1241,7 @@ body {
     }
     .acor-container label{
         font-size: 13px;
-        width: 65%;
+        width: 100%;
     }
     .acor-desk{
         font-size: 13px;
@@ -1279,7 +1279,7 @@ body {
     }
 
     .footer {
-        margin-top: 500px;
+        margin-top: 530px;
     }
     .footer_logo{
         display: none;
