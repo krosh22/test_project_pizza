@@ -1319,6 +1319,11 @@ body {
     .menu-desk{
         font-size: 13px;
     }
+    .acor-container {
+        width: 100%;
+        box-sizing: border-box;
+        padding: 20px 32px;
+    }
 }
 
 
